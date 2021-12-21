@@ -731,3 +731,22 @@ class Utils{
 }
 ```
 
+## Flutter
+
+##### 本地图片使用
+
+- 创建文件夹
+
+![](pictures/flutter_image.png)
+
+- 在`pubspec.yaml`文件中解开注释，把要引入的图片添加进去
+
+```yaml
+# To add assets to your application, add an assets section, like this:
+assets:
+   - images/2.0x/pig.png
+   - images/3.0x/pig.png
+   - images/4.0x/pig.png
+```
+
+注意：解开注释后assets前面有一个空格，一定要去掉和其它地方对齐。
